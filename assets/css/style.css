@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    /* Styling for header */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -25,6 +26,7 @@ header h1 .seo {
 }
 
 header nav {
+    /* Styling for navigation */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -42,6 +44,7 @@ header nav ul {
 */
 
 header nav ul li {
+    /* Styling for navigation display */
     display: inline-block;
     margin-left: 25px;
 }
@@ -55,15 +58,8 @@ p {
     font-size: 16px;
 }
 
-/* Removed 
-
-.hero
-
-    created section
-}
-*/
-
-section {
+.hero {
+    /* Styling for image banner */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -73,22 +69,26 @@ section {
 }
 
 .float-left {
+    /* Class created for image display */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* Class created for image display */
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content-container {
+    /* Parent of .main-content */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.sidebar-container {
+    /* Parent of .sidebar-content */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -101,17 +101,17 @@ section {
 
 /* Removed duplicate classes shortening css code */
 
-.benefit {
+.sidebar-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.sidebar-content {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.sidebar-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -132,7 +132,7 @@ section {
     max-height: 200px;
 }
 
-.main-conent h2 {
+.main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
