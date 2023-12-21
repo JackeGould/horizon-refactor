@@ -17,11 +17,13 @@ header {
 }
 
 header h1 {
+    /* Styling for h1 */
     display: inline-block;
     font-size: 48px;
 }
 
 header h1 .seo {
+    /* Styling seo in the Horiseon header. seo is a different color */
     color: #d9dcd6;
 }
 
@@ -88,7 +90,7 @@ p {
 }
 
 .sidebar-container {
-    /* Parent of .sidebar-content */
+    /* Parent element of .sidebar-content */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,16 +104,19 @@ p {
 /* Removed duplicate classes shortening css code */
 
 .sidebar-content {
+    /* Child element of .sidebar-container */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.sidebar-content {
+.sidebar-content h3 {
+    /* Styling for h3 elements */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .sidebar-content img {
+    /* Styling for img elements */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -120,6 +125,7 @@ p {
 /* Removed duplicate classes shortening css code. Renamed class "main-content". Shortened code, created one class for duplucated codes */
 
 .main-content {
+    /* Child element of .main-container */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -129,15 +135,18 @@ p {
 }
 
 .main-content img {
+    /* Styling for img elements in .main-content */
     max-height: 200px;
 }
 
 .main-content h2 {
+    /* Styling for h2 elements in .main-content */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 footer {
+    /* Styling for footer elements */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -145,5 +154,6 @@ footer {
 }
 
 footer h2 {
+    /* Styling for h2 in footer elements */
     font-size: 20px;
 }
